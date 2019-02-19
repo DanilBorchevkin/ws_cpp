@@ -1,3 +1,4 @@
+#define EMPTY_MACROS
 #define TRUE    1
 #define FALSE   !TRUE
 
@@ -7,8 +8,6 @@ int main(void) {
     // Some comment
     val = TRUE;
     val = FALSE;
-
-    //printf("TRUE = %d and FALSE = %d", TRUE, FALSE);
 
     return 0;
 }
